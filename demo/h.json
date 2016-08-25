@@ -1,0 +1,32 @@
+{
+    "common": {
+        "secret": "s3cr3t", 
+        "serverUrl": "https://europe.slamby.com/demo/"
+    }, 
+    "moduleSettings": {
+        "TestDataset": {
+            "Arg": [], 
+            "FunctionIteration": 10, 
+            "ModuleIteration": 5, 
+            "datasetName": "hello", 
+            "renameIteration": 5, 
+            "secret": "s3cr3t", 
+        "serverUrl": "https://europe.slamby.com/demo/"
+        }, 
+        "TestDocument": {
+            "Arg": [], 
+            "FunctionIteration": 1, 
+            "ModuleIteration": 1, 
+            "secret": "s3cr3t", 
+        "serverUrl": "https://europe.slamby.com/demo/"
+        }, 
+        "TestStatus": {
+            "Arg": [], 
+            "FunctionIteration": 10, 
+            "ModuleIteration": 10, 
+            "iterationNumber": 3, 
+            "secret": "s3cr3t", 
+        "serverUrl": "https://europe.slamby.com/demo/"
+        }
+    }
+}
