@@ -6,27 +6,27 @@
     "moduleSettings": {
         "TestDataset": {
             "Arg": [], 
-            "FunctionIteration": 10, 
-            "ModuleIteration": 5, 
+            "FunctionIteration": 1, 
+            "ModuleIteration": 1, 
             "datasetName": "hello", 
             "renameIteration": 5, 
-            "secret": "s3cr3t", 
-        "serverUrl": "https://europe.slamby.com/demo/"
+            "secret": "", 
+            "serverUrl": ""
         }, 
         "TestDocument": {
             "Arg": [], 
             "FunctionIteration": 1, 
             "ModuleIteration": 1, 
-            "secret": "s3cr3t", 
-        "serverUrl": "https://europe.slamby.com/demo/"
+            "secret": "", 
+            "serverUrl": ""
         }, 
         "TestStatus": {
             "Arg": [], 
-            "FunctionIteration": 10, 
-            "ModuleIteration": 10, 
+            "FunctionIteration": 1, 
+            "ModuleIteration": 1, 
             "iterationNumber": 3, 
-            "secret": "s3cr3t", 
-        "serverUrl": "https://europe.slamby.com/demo/"
+            "secret": "", 
+            "serverUrl": ""
         }
     }
 }
