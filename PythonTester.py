@@ -9,6 +9,9 @@ import os
 import importlib
 import sys, getopt
 import json
+import csv
+import random
+import copy
 
 #### Settings
 
@@ -42,13 +45,13 @@ settings = {
 customSettings = {}
 # Test Plan Container
 testPlan = {}
-
+randomTestPlan = []
 ## Test
 
 # Test Instances
 testInstances = {}
 # Test Data
-test = {
+testResult = {
     "stat":{},
     "result":[]
 }
@@ -75,6 +78,48 @@ def exportToJson(fileName,content):
 def importJson(fileName):
     with open(fileName) as setting_file:    
         return json.load(setting_file)
+        
+# Helper
+def exportDictToCsv(fileName,dictionary):
+    if not os.path.exists(os.path.dirname(fileName)):
+        try:
+            os.makedirs(os.path.dirname(fileName))
+        except OSError as e: # Guard against race condition
+            print(e)
+    with open(fileName,"wb") as f:
+        w = csv.DictWriter(f,dictionary[0].keys())
+        w.writeheader()
+        w.writerow(dictionary)
+        
+# Helper
+def importJsonFromCsv(fileName):
+    result = []
+    with open(fileName,"rb") as csvfile:
+        reader = csv.DictReader(csvfile)
+        for item in reader:
+            result.append(item)
+    return result
+        
+# Helper
+def exportListToCsv(fileName,content):
+    if not os.path.exists(os.path.dirname(fileName)):
+        try:
+            os.makedirs(os.path.dirname(fileName))
+        except OSError as e: # Guard against race condition
+            print(e)
+    with open(fileName,"wb") as f:
+        w = csv.writer(f,quoting=csv.QUOTE_ALL)
+        for row in content:
+            m = []
+            for item in row:
+                if type(item) is dict and len(item) > 0:
+                    m.append(json.dumps(item, separators=(',',':')))
+                m.append(item)
+            w.writerow(m)
+            
+# Helper
+def readJsonFromString(string):
+    return json.loads(string)
 
 ## ---------------------
 ## Init
@@ -104,6 +149,7 @@ for module in testModules:
 # Create Test Plan from settings file
 def testPlanner():
     global testFunctions
+    global testPlan
     for module in customSettings["moduleSettings"]:
         moduleInstanceNumber = len(customSettings["moduleSettings"][module]["Arg"]) if len(customSettings["moduleSettings"][module]["Arg"]) > 0 else 1
         moduleIteration = customSettings["moduleSettings"][module]["ModuleIteration"] if customSettings["moduleSettings"][module]["ModuleIteration"] > 0 else 1
@@ -142,8 +188,75 @@ def testPlanner():
                         if setting in customSettings["common"].keys():
                             testPlan[instanceName]["settings"][setting] = customSettings["common"][setting]
 
+    newPlan = {}
+    for instanceName in testPlan:
+        newPlan[instanceName] = copy.deepcopy(testPlan[instanceName])
+        if len(newPlan[instanceName]["settings"]["Arg"]) > 0:
+            a = testPlan[instanceName]["settings"]["Arg"][int(instanceName.split("_")[1])]
+            newPlan[instanceName]["settings"]["Arg"] = a
+    # Rewrite modified plan
+    testPlan = newPlan
+                            
+# Randomizer
+def randomTestGenerator():
+    global testPlan
+    # Random instance selection
+    randomInstanceName = testPlan.keys()[random.randint(0,len(testPlan.keys())-1)]
+    # If Start method still exists
+    if testPlan[randomInstanceName]["actions"][0]["action"] == "Start":
+        settings = testPlan[randomInstanceName]["settings"].copy()
+        if len(testPlan[randomInstanceName]["settings"]["Arg"]) == 0:
+            settings["Arg"] = ""
+        addToRandomTestPlan(
+            randomInstanceName,
+            testPlan[randomInstanceName]["moduleName"],
+            "Start",
+            settings
+        )
+        del testPlan[randomInstanceName]["actions"][0]
+    
+    if len(testPlan[randomInstanceName]["actions"]) > 1:
+        actionIndex = random.randint(0,len(testPlan[randomInstanceName]["actions"])-2)
+    else:
+        actionIndex = 0
+
+    addToRandomTestPlan(
+        randomInstanceName,
+        testPlan[randomInstanceName]["moduleName"],
+        testPlan[randomInstanceName]["actions"][actionIndex]["action"],
+        {}
+    )
+    del testPlan[randomInstanceName]["actions"][actionIndex]
+    
+    if len(testPlan[randomInstanceName]["actions"]) == 0:
+        del testPlan[randomInstanceName]
+
+    if len(testPlan) > 0:
+        randomTestGenerator()
+    
+def addToRandomTestPlan(instanceName,module,action,settings):
+    global randomTestPlan
+    if len(randomTestPlan) == 0:
+        randomTestPlan.append(["InstanceName","Module","Action","Settings"])
+    randomTestPlan.append([instanceName,module,action,settings])
+
+def tester(fileName):
+    global testInstances
+    for testCase in importJsonFromCsv(fileName):
+        # Create Instance if new test case start
+        if testCase["Action"] == "Start":
+            testInstances[testCase["InstanceName"]] = loadClass(testCase["Module"])()
+            # Settings auto loading
+            settings = readJsonFromString(testCase["Settings"])
+            for variable in settings:
+                # if variable exists in Instance Class
+                instanceVariables = vars(testInstances[testCase["InstanceName"]])
+                if variable in instanceVariables.keys():
+                    setattr(testInstances[testCase["InstanceName"]],variable,settings[variable])
+        test(testCase["InstanceName"],testInstances[testCase["InstanceName"]],testCase["Action"])
+
 # Tester Method
-def tester(testPlan):
+def _tester(fileName):
     global testInstances
     #Instance Creation
     for instanceName in testPlan:
@@ -156,11 +269,49 @@ def tester(testPlan):
             if variable in instanceVariables.keys():
                 setattr(testInstances[instanceName],variable,testPlan[instanceName]["settings"][variable])
 
-    for instanceName in testPlan:
-        print(vars(testInstances[instanceName]))
-        for item in testPlan[instanceName]["actions"]:           
-            getattr(testInstances[instanceName],item["action"])()
+    #for instanceName in testPlan:
+    #    print(vars(testInstances[instanceName]))
+    #    for item in testPlan[instanceName]["actions"]:           
+    #        getattr(testInstances[instanceName],item["action"])()
+    autoTester(testPlan)
 
+def autoTester(testPlan):
+    global testInstances
+    # Random instance selection
+    instance = testPlan.keys()[random.randint(0,len(testPlan.keys())-1)]
+    # If Start method still exists
+    if testPlan[instance]["actions"][0]["action"] == "Start":
+        #getattr(testInstances[instance],"Start")()
+        test(instance,testInstances[instance],"Start")
+        del testPlan[instance]["actions"][0]
+    
+    if len(testPlan[instance]["actions"]) > 2:
+        actionIndex = random.randint(0,len(testPlan[instance]["actions"])-2)
+    else:
+        actionIndex = 0
+        test(instance,testInstances[instance],testPlan[instance]["actions"][actionIndex]["action"])
+        
+    del testPlan[instance]["actions"][actionIndex]
+    if len(testPlan[instance]["actions"]) == 0:
+        del testPlan[instance]
+    if len(testPlan) > 0:
+        autoTester(testPlan)
+        
+def test(instanceName,instance,action):
+    log(
+        instanceName,
+        action,
+        getattr(instance,action)()
+    )
+    
+def log(instanceName,action,result):
+    global testResult
+    testResult["result"].append({
+        "instance":instanceName,
+        "action":action,
+        "result":result
+    })
+    
 ## ---------------------
 ## Console Level
 ## ---------------------
@@ -194,9 +345,10 @@ def main(argv):
             customSettings = importJson(arg)
             testPlanner()
             exportToJson("{0}/plan.json".format(os.path.dirname(arg)),testPlan)
+            randomTestGenerator()
+            exportListToCsv("{0}/plan.random.csv".format(os.path.dirname(arg)),randomTestPlan)
         elif opt in ("-t", "--ofile"):
-            customTestPlan = importJson(arg)
-            tester(customTestPlan)
+            tester(arg)
                 
 if __name__ == "__main__":
    main(sys.argv[1:])

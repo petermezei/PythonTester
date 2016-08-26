@@ -6,10 +6,10 @@
     "moduleSettings": {
         "TestDataset": {
             "Arg": [], 
-            "FunctionIteration": 1, 
+            "FunctionIteration": 3,
             "ModuleIteration": 1, 
             "datasetName": "hello", 
-            "renameIteration": 5, 
+            "renameIteration": 1, 
             "secret": "", 
             "serverUrl": ""
         }, 
@@ -22,9 +22,9 @@
         }, 
         "TestStatus": {
             "Arg": [], 
-            "FunctionIteration": 1, 
-            "ModuleIteration": 1, 
-            "iterationNumber": 3, 
+            "FunctionIteration": 10,
+            "ModuleIteration": 3, 
+            "iterationNumber": 1, 
             "secret": "", 
             "serverUrl": ""
         }
