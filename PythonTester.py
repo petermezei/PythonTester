@@ -242,6 +242,8 @@ def addToRandomTestPlan(instanceName,module,action,settings):
 
 def tester(fileName):
     global testInstances
+    global testResult
+    testResult["result"].append(["Instance","Action","Result"])
     for testCase in importJsonFromCsv(fileName):
         # Create Instance if new test case start
         if testCase["Action"] == "Start":
@@ -253,49 +255,12 @@ def tester(fileName):
                 instanceVariables = vars(testInstances[testCase["InstanceName"]])
                 if variable in instanceVariables.keys():
                     setattr(testInstances[testCase["InstanceName"]],variable,settings[variable])
-        test(testCase["InstanceName"],testInstances[testCase["InstanceName"]],testCase["Action"])
-
-# Tester Method
-def _tester(fileName):
-    global testInstances
-    #Instance Creation
-    for instanceName in testPlan:
-        # Create Instances
-        testInstances[instanceName] = loadClass(testPlan[instanceName]["moduleName"])()
-        # Settings auto loading
-        for variable in testPlan[instanceName]["settings"]:
-            # if variable exists in Instance Class
-            instanceVariables = vars(testInstances[instanceName])
-            if variable in instanceVariables.keys():
-                setattr(testInstances[instanceName],variable,testPlan[instanceName]["settings"][variable])
-
-    #for instanceName in testPlan:
-    #    print(vars(testInstances[instanceName]))
-    #    for item in testPlan[instanceName]["actions"]:           
-    #        getattr(testInstances[instanceName],item["action"])()
-    autoTester(testPlan)
-
-def autoTester(testPlan):
-    global testInstances
-    # Random instance selection
-    instance = testPlan.keys()[random.randint(0,len(testPlan.keys())-1)]
-    # If Start method still exists
-    if testPlan[instance]["actions"][0]["action"] == "Start":
-        #getattr(testInstances[instance],"Start")()
-        test(instance,testInstances[instance],"Start")
-        del testPlan[instance]["actions"][0]
-    
-    if len(testPlan[instance]["actions"]) > 2:
-        actionIndex = random.randint(0,len(testPlan[instance]["actions"])-2)
-    else:
-        actionIndex = 0
-        test(instance,testInstances[instance],testPlan[instance]["actions"][actionIndex]["action"])
-        
-    del testPlan[instance]["actions"][actionIndex]
-    if len(testPlan[instance]["actions"]) == 0:
-        del testPlan[instance]
-    if len(testPlan) > 0:
-        autoTester(testPlan)
+        # Run Test
+        test(
+            testCase["InstanceName"],
+            testInstances[testCase["InstanceName"]],
+            testCase["Action"]
+        )
         
 def test(instanceName,instance,action):
     log(
@@ -306,11 +271,7 @@ def test(instanceName,instance,action):
     
 def log(instanceName,action,result):
     global testResult
-    testResult["result"].append({
-        "instance":instanceName,
-        "action":action,
-        "result":result
-    })
+    testResult["result"].append([instanceName,action,result])
     
 ## ---------------------
 ## Console Level
@@ -349,6 +310,8 @@ def main(argv):
             exportListToCsv("{0}/plan.random.csv".format(os.path.dirname(arg)),randomTestPlan)
         elif opt in ("-t", "--ofile"):
             tester(arg)
+            exportListToCsv("{0}/result.csv".format(os.path.dirname(arg)),testResult["result"])
+            
                 
 if __name__ == "__main__":
    main(sys.argv[1:])
