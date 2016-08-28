@@ -42,6 +42,90 @@
                 "result": {}
             }, 
             {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
                 "action": "Stop", 
                 "result": {}
             }
@@ -49,10 +133,578 @@
         "moduleName": "TestDataset", 
         "settings": {
             "Arg": [], 
-            "FunctionIteration": 3, 
-            "ModuleIteration": 1, 
+            "FunctionIteration": 10, 
+            "ModuleIteration": 5, 
             "datasetName": "hello", 
-            "renameIteration": 1, 
+            "renameIteration": 10, 
+            "secret": "s3cr3t", 
+            "serverUrl": "https://europe.slamby.com/demo/"
+        }
+    }, 
+    "TestDataset_0_1": {
+        "actions": [
+            {
+                "action": "Start", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "Stop", 
+                "result": {}
+            }
+        ], 
+        "moduleName": "TestDataset", 
+        "settings": {
+            "Arg": [], 
+            "FunctionIteration": 10, 
+            "ModuleIteration": 5, 
+            "datasetName": "hello", 
+            "renameIteration": 10, 
+            "secret": "s3cr3t", 
+            "serverUrl": "https://europe.slamby.com/demo/"
+        }
+    }, 
+    "TestDataset_0_2": {
+        "actions": [
+            {
+                "action": "Start", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "Stop", 
+                "result": {}
+            }
+        ], 
+        "moduleName": "TestDataset", 
+        "settings": {
+            "Arg": [], 
+            "FunctionIteration": 10, 
+            "ModuleIteration": 5, 
+            "datasetName": "hello", 
+            "renameIteration": 10, 
+            "secret": "s3cr3t", 
+            "serverUrl": "https://europe.slamby.com/demo/"
+        }
+    }, 
+    "TestDataset_0_3": {
+        "actions": [
+            {
+                "action": "Start", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "Stop", 
+                "result": {}
+            }
+        ], 
+        "moduleName": "TestDataset", 
+        "settings": {
+            "Arg": [], 
+            "FunctionIteration": 10, 
+            "ModuleIteration": 5, 
+            "datasetName": "hello", 
+            "renameIteration": 10, 
+            "secret": "s3cr3t", 
+            "serverUrl": "https://europe.slamby.com/demo/"
+        }
+    }, 
+    "TestDataset_0_4": {
+        "actions": [
+            {
+                "action": "Start", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_listAllDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "_renameDataset", 
+                "result": {}
+            }, 
+            {
+                "action": "Stop", 
+                "result": {}
+            }
+        ], 
+        "moduleName": "TestDataset", 
+        "settings": {
+            "Arg": [], 
+            "FunctionIteration": 10, 
+            "ModuleIteration": 5, 
+            "datasetName": "hello", 
+            "renameIteration": 10, 
             "secret": "s3cr3t", 
             "serverUrl": "https://europe.slamby.com/demo/"
         }
@@ -124,6 +776,46 @@
                 "result": {}
             }, 
             {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
                 "action": "Stop", 
                 "result": {}
             }
@@ -131,9 +823,9 @@
         "moduleName": "TestStatus", 
         "settings": {
             "Arg": [], 
-            "FunctionIteration": 10, 
-            "ModuleIteration": 3, 
-            "iterationNumber": 1, 
+            "FunctionIteration": 20, 
+            "ModuleIteration": 10, 
+            "iterationNumber": 3, 
             "secret": "s3cr3t", 
             "serverUrl": "https://europe.slamby.com/demo/"
         }
@@ -185,6 +877,46 @@
                 "result": {}
             }, 
             {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
                 "action": "Stop", 
                 "result": {}
             }
@@ -192,9 +924,9 @@
         "moduleName": "TestStatus", 
         "settings": {
             "Arg": [], 
-            "FunctionIteration": 10, 
-            "ModuleIteration": 3, 
-            "iterationNumber": 1, 
+            "FunctionIteration": 20, 
+            "ModuleIteration": 10, 
+            "iterationNumber": 3, 
             "secret": "s3cr3t", 
             "serverUrl": "https://europe.slamby.com/demo/"
         }
@@ -246,6 +978,46 @@
                 "result": {}
             }, 
             {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
                 "action": "Stop", 
                 "result": {}
             }
@@ -253,9 +1025,716 @@
         "moduleName": "TestStatus", 
         "settings": {
             "Arg": [], 
-            "FunctionIteration": 10, 
-            "ModuleIteration": 3, 
-            "iterationNumber": 1, 
+            "FunctionIteration": 20, 
+            "ModuleIteration": 10, 
+            "iterationNumber": 3, 
+            "secret": "s3cr3t", 
+            "serverUrl": "https://europe.slamby.com/demo/"
+        }
+    }, 
+    "TestStatus_0_3": {
+        "actions": [
+            {
+                "action": "Start", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "Stop", 
+                "result": {}
+            }
+        ], 
+        "moduleName": "TestStatus", 
+        "settings": {
+            "Arg": [], 
+            "FunctionIteration": 20, 
+            "ModuleIteration": 10, 
+            "iterationNumber": 3, 
+            "secret": "s3cr3t", 
+            "serverUrl": "https://europe.slamby.com/demo/"
+        }
+    }, 
+    "TestStatus_0_4": {
+        "actions": [
+            {
+                "action": "Start", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "Stop", 
+                "result": {}
+            }
+        ], 
+        "moduleName": "TestStatus", 
+        "settings": {
+            "Arg": [], 
+            "FunctionIteration": 20, 
+            "ModuleIteration": 10, 
+            "iterationNumber": 3, 
+            "secret": "s3cr3t", 
+            "serverUrl": "https://europe.slamby.com/demo/"
+        }
+    }, 
+    "TestStatus_0_5": {
+        "actions": [
+            {
+                "action": "Start", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "Stop", 
+                "result": {}
+            }
+        ], 
+        "moduleName": "TestStatus", 
+        "settings": {
+            "Arg": [], 
+            "FunctionIteration": 20, 
+            "ModuleIteration": 10, 
+            "iterationNumber": 3, 
+            "secret": "s3cr3t", 
+            "serverUrl": "https://europe.slamby.com/demo/"
+        }
+    }, 
+    "TestStatus_0_6": {
+        "actions": [
+            {
+                "action": "Start", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "Stop", 
+                "result": {}
+            }
+        ], 
+        "moduleName": "TestStatus", 
+        "settings": {
+            "Arg": [], 
+            "FunctionIteration": 20, 
+            "ModuleIteration": 10, 
+            "iterationNumber": 3, 
+            "secret": "s3cr3t", 
+            "serverUrl": "https://europe.slamby.com/demo/"
+        }
+    }, 
+    "TestStatus_0_7": {
+        "actions": [
+            {
+                "action": "Start", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "Stop", 
+                "result": {}
+            }
+        ], 
+        "moduleName": "TestStatus", 
+        "settings": {
+            "Arg": [], 
+            "FunctionIteration": 20, 
+            "ModuleIteration": 10, 
+            "iterationNumber": 3, 
+            "secret": "s3cr3t", 
+            "serverUrl": "https://europe.slamby.com/demo/"
+        }
+    }, 
+    "TestStatus_0_8": {
+        "actions": [
+            {
+                "action": "Start", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "Stop", 
+                "result": {}
+            }
+        ], 
+        "moduleName": "TestStatus", 
+        "settings": {
+            "Arg": [], 
+            "FunctionIteration": 20, 
+            "ModuleIteration": 10, 
+            "iterationNumber": 3, 
+            "secret": "s3cr3t", 
+            "serverUrl": "https://europe.slamby.com/demo/"
+        }
+    }, 
+    "TestStatus_0_9": {
+        "actions": [
+            {
+                "action": "Start", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "_getStatus", 
+                "result": {}
+            }, 
+            {
+                "action": "Stop", 
+                "result": {}
+            }
+        ], 
+        "moduleName": "TestStatus", 
+        "settings": {
+            "Arg": [], 
+            "FunctionIteration": 20, 
+            "ModuleIteration": 10, 
+            "iterationNumber": 3, 
             "secret": "s3cr3t", 
             "serverUrl": "https://europe.slamby.com/demo/"
         }
