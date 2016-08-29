@@ -136,7 +136,7 @@
             "FunctionIteration": 10, 
             "ModuleIteration": 5, 
             "datasetName": "hello", 
-            "renameIteration": 10, 
+            "renameIteration": 15, 
             "secret": "s3cr3t", 
             "serverUrl": "https://europe.slamby.com/demo/"
         }
@@ -278,7 +278,7 @@
             "FunctionIteration": 10, 
             "ModuleIteration": 5, 
             "datasetName": "hello", 
-            "renameIteration": 10, 
+            "renameIteration": 15, 
             "secret": "s3cr3t", 
             "serverUrl": "https://europe.slamby.com/demo/"
         }
@@ -420,7 +420,7 @@
             "FunctionIteration": 10, 
             "ModuleIteration": 5, 
             "datasetName": "hello", 
-            "renameIteration": 10, 
+            "renameIteration": 15, 
             "secret": "s3cr3t", 
             "serverUrl": "https://europe.slamby.com/demo/"
         }
@@ -562,7 +562,7 @@
             "FunctionIteration": 10, 
             "ModuleIteration": 5, 
             "datasetName": "hello", 
-            "renameIteration": 10, 
+            "renameIteration": 15, 
             "secret": "s3cr3t", 
             "serverUrl": "https://europe.slamby.com/demo/"
         }
@@ -704,7 +704,7 @@
             "FunctionIteration": 10, 
             "ModuleIteration": 5, 
             "datasetName": "hello", 
-            "renameIteration": 10, 
+            "renameIteration": 15, 
             "secret": "s3cr3t", 
             "serverUrl": "https://europe.slamby.com/demo/"
         }
@@ -716,6 +716,326 @@
                 "result": {}
             }, 
             {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
                 "action": "Stop", 
                 "result": {}
             }
@@ -723,56 +1043,708 @@
         "moduleName": "TestDocument", 
         "settings": {
             "Arg": [], 
-            "FunctionIteration": 1, 
-            "ModuleIteration": 1, 
+            "FunctionIteration": 20, 
+            "ModuleIteration": 3, 
+            "datasetInstance": "", 
+            "datasetName": "", 
             "secret": "s3cr3t", 
-            "serverUrl": "https://europe.slamby.com/demo/"
+            "serverUrl": "https://europe.slamby.com/demo/", 
+            "singleDocumentCreationIterationNumber": 5, 
+            "testDocumentIds": []
         }
     }, 
-    "TestStatus_0_0": {
+    "TestDocument_0_1": {
         "actions": [
             {
                 "action": "Start", 
                 "result": {}
             }, 
             {
-                "action": "_getStatus", 
+                "action": "_getDocument", 
                 "result": {}
             }, 
             {
-                "action": "_getStatus", 
+                "action": "_getSampleByFixNumber", 
                 "result": {}
             }, 
             {
-                "action": "_getStatus", 
+                "action": "_getSampleByPercentage", 
                 "result": {}
             }, 
             {
-                "action": "_getStatus", 
+                "action": "_updateDocument", 
                 "result": {}
             }, 
             {
-                "action": "_getStatus", 
+                "action": "_getDocument", 
                 "result": {}
             }, 
             {
-                "action": "_getStatus", 
+                "action": "_getSampleByFixNumber", 
                 "result": {}
             }, 
             {
-                "action": "_getStatus", 
+                "action": "_getSampleByPercentage", 
                 "result": {}
             }, 
             {
-                "action": "_getStatus", 
+                "action": "_updateDocument", 
                 "result": {}
             }, 
             {
-                "action": "_getStatus", 
+                "action": "_getDocument", 
                 "result": {}
             }, 
             {
-                "action": "_getStatus", 
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "Stop", 
+                "result": {}
+            }
+        ], 
+        "moduleName": "TestDocument", 
+        "settings": {
+            "Arg": [], 
+            "FunctionIteration": 20, 
+            "ModuleIteration": 3, 
+            "datasetInstance": "", 
+            "datasetName": "", 
+            "secret": "s3cr3t", 
+            "serverUrl": "https://europe.slamby.com/demo/", 
+            "singleDocumentCreationIterationNumber": 5, 
+            "testDocumentIds": []
+        }
+    }, 
+    "TestDocument_0_2": {
+        "actions": [
+            {
+                "action": "Start", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByFixNumber", 
+                "result": {}
+            }, 
+            {
+                "action": "_getSampleByPercentage", 
+                "result": {}
+            }, 
+            {
+                "action": "_updateDocument", 
+                "result": {}
+            }, 
+            {
+                "action": "Stop", 
+                "result": {}
+            }
+        ], 
+        "moduleName": "TestDocument", 
+        "settings": {
+            "Arg": [], 
+            "FunctionIteration": 20, 
+            "ModuleIteration": 3, 
+            "datasetInstance": "", 
+            "datasetName": "", 
+            "secret": "s3cr3t", 
+            "serverUrl": "https://europe.slamby.com/demo/", 
+            "singleDocumentCreationIterationNumber": 5, 
+            "testDocumentIds": []
+        }
+    }, 
+    "TestStatus_0_0": {
+        "actions": [
+            {
+                "action": "Start", 
                 "result": {}
             }, 
             {
@@ -823,8 +1795,8 @@
         "moduleName": "TestStatus", 
         "settings": {
             "Arg": [], 
-            "FunctionIteration": 20, 
-            "ModuleIteration": 10, 
+            "FunctionIteration": 10, 
+            "ModuleIteration": 5, 
             "iterationNumber": 3, 
             "secret": "s3cr3t", 
             "serverUrl": "https://europe.slamby.com/demo/"
@@ -877,46 +1849,6 @@
                 "result": {}
             }, 
             {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
                 "action": "Stop", 
                 "result": {}
             }
@@ -924,8 +1856,8 @@
         "moduleName": "TestStatus", 
         "settings": {
             "Arg": [], 
-            "FunctionIteration": 20, 
-            "ModuleIteration": 10, 
+            "FunctionIteration": 10, 
+            "ModuleIteration": 5, 
             "iterationNumber": 3, 
             "secret": "s3cr3t", 
             "serverUrl": "https://europe.slamby.com/demo/"
@@ -978,46 +1910,6 @@
                 "result": {}
             }, 
             {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
                 "action": "Stop", 
                 "result": {}
             }
@@ -1025,8 +1917,8 @@
         "moduleName": "TestStatus", 
         "settings": {
             "Arg": [], 
-            "FunctionIteration": 20, 
-            "ModuleIteration": 10, 
+            "FunctionIteration": 10, 
+            "ModuleIteration": 5, 
             "iterationNumber": 3, 
             "secret": "s3cr3t", 
             "serverUrl": "https://europe.slamby.com/demo/"
@@ -1079,46 +1971,6 @@
                 "result": {}
             }, 
             {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
                 "action": "Stop", 
                 "result": {}
             }
@@ -1126,8 +1978,8 @@
         "moduleName": "TestStatus", 
         "settings": {
             "Arg": [], 
-            "FunctionIteration": 20, 
-            "ModuleIteration": 10, 
+            "FunctionIteration": 10, 
+            "ModuleIteration": 5, 
             "iterationNumber": 3, 
             "secret": "s3cr3t", 
             "serverUrl": "https://europe.slamby.com/demo/"
@@ -1180,46 +2032,6 @@
                 "result": {}
             }, 
             {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
                 "action": "Stop", 
                 "result": {}
             }
@@ -1227,513 +2039,8 @@
         "moduleName": "TestStatus", 
         "settings": {
             "Arg": [], 
-            "FunctionIteration": 20, 
-            "ModuleIteration": 10, 
-            "iterationNumber": 3, 
-            "secret": "s3cr3t", 
-            "serverUrl": "https://europe.slamby.com/demo/"
-        }
-    }, 
-    "TestStatus_0_5": {
-        "actions": [
-            {
-                "action": "Start", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "Stop", 
-                "result": {}
-            }
-        ], 
-        "moduleName": "TestStatus", 
-        "settings": {
-            "Arg": [], 
-            "FunctionIteration": 20, 
-            "ModuleIteration": 10, 
-            "iterationNumber": 3, 
-            "secret": "s3cr3t", 
-            "serverUrl": "https://europe.slamby.com/demo/"
-        }
-    }, 
-    "TestStatus_0_6": {
-        "actions": [
-            {
-                "action": "Start", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "Stop", 
-                "result": {}
-            }
-        ], 
-        "moduleName": "TestStatus", 
-        "settings": {
-            "Arg": [], 
-            "FunctionIteration": 20, 
-            "ModuleIteration": 10, 
-            "iterationNumber": 3, 
-            "secret": "s3cr3t", 
-            "serverUrl": "https://europe.slamby.com/demo/"
-        }
-    }, 
-    "TestStatus_0_7": {
-        "actions": [
-            {
-                "action": "Start", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "Stop", 
-                "result": {}
-            }
-        ], 
-        "moduleName": "TestStatus", 
-        "settings": {
-            "Arg": [], 
-            "FunctionIteration": 20, 
-            "ModuleIteration": 10, 
-            "iterationNumber": 3, 
-            "secret": "s3cr3t", 
-            "serverUrl": "https://europe.slamby.com/demo/"
-        }
-    }, 
-    "TestStatus_0_8": {
-        "actions": [
-            {
-                "action": "Start", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "Stop", 
-                "result": {}
-            }
-        ], 
-        "moduleName": "TestStatus", 
-        "settings": {
-            "Arg": [], 
-            "FunctionIteration": 20, 
-            "ModuleIteration": 10, 
-            "iterationNumber": 3, 
-            "secret": "s3cr3t", 
-            "serverUrl": "https://europe.slamby.com/demo/"
-        }
-    }, 
-    "TestStatus_0_9": {
-        "actions": [
-            {
-                "action": "Start", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "_getStatus", 
-                "result": {}
-            }, 
-            {
-                "action": "Stop", 
-                "result": {}
-            }
-        ], 
-        "moduleName": "TestStatus", 
-        "settings": {
-            "Arg": [], 
-            "FunctionIteration": 20, 
-            "ModuleIteration": 10, 
+            "FunctionIteration": 10, 
+            "ModuleIteration": 5, 
             "iterationNumber": 3, 
             "secret": "s3cr3t", 
             "serverUrl": "https://europe.slamby.com/demo/"

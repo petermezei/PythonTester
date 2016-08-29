@@ -6,24 +6,28 @@
     "moduleSettings": {
         "TestDataset": {
             "Arg": [], 
-            "FunctionIteration": 10, 
-            "ModuleIteration": 5, 
+            "FunctionIteration": 3, 
+            "ModuleIteration": 1, 
             "datasetName": "hello", 
-            "renameIteration": 10, 
+            "renameIteration": 5, 
             "secret": "", 
             "serverUrl": ""
         }, 
         "TestDocument": {
             "Arg": [], 
-            "FunctionIteration": 1, 
-            "ModuleIteration": 1, 
+            "FunctionIteration": 5, 
+            "ModuleIteration": 10, 
+            "datasetInstance": "", 
+            "datasetName": "", 
             "secret": "", 
-            "serverUrl": ""
+            "serverUrl": "", 
+            "singleDocumentCreationIterationNumber": 5, 
+            "testDocumentIds": []
         }, 
         "TestStatus": {
             "Arg": [], 
-            "FunctionIteration": 20, 
-            "ModuleIteration": 10, 
+            "FunctionIteration": 10, 
+            "ModuleIteration": 1, 
             "iterationNumber": 3, 
             "secret": "", 
             "serverUrl": ""

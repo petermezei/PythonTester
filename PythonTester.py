@@ -12,6 +12,7 @@ import json
 import csv
 import random
 import copy
+import time
 
 #### Settings
 
@@ -242,8 +243,6 @@ def addToRandomTestPlan(instanceName,module,action,settings):
 
 def tester(fileName):
     global testInstances
-    global testResult
-    testResult["result"].append(["Instance","Action","Result"])
     for testCase in importJsonFromCsv(fileName):
         # Create Instance if new test case start
         if testCase["Action"] == "Start":
@@ -263,15 +262,23 @@ def tester(fileName):
         )
         
 def test(instanceName,instance,action):
+    start = time.time()
+    result = getattr(instance,action)()
+    stop = time.time()
+    timeElapsed = round(stop-start,5)
     log(
         instanceName,
         action,
-        getattr(instance,action)()
+        result,
+        timeElapsed
     )
     
-def log(instanceName,action,result):
+def log(instanceName,action,result,elapsedTime):
     global testResult
-    testResult["result"].append([instanceName,action,result])
+    if len(testResult["result"]) == 0:
+        testResult["result"].append(["Instance","Action","Result","Elapsed Time"])
+    
+    testResult["result"].append([instanceName,action,result,elapsedTime])
     
 ## ---------------------
 ## Console Level
